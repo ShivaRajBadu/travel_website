@@ -1,0 +1,152 @@
+.tour_package {
+  background-color: rgb(246, 245, 245);
+  padding: 5rem 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.package_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.package_title {
+}
+.title {
+  width: 100%;
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+}
+.bg_draw {
+  background-image: url("/title_bg.png");
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.subtitle {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+  opacity: 0.5;
+}
+.package_button {
+  padding: 1.5rem 2rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(252, 228, 228);
+  color: rgb(241, 31, 31);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.package_button:hover {
+  color: rgb(193, 35, 35);
+  background-color: rgb(251, 211, 211);
+}
+.package_body {
+  margin: 3rem 0;
+}
+
+.offers {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 3rem;
+  transition: all ease-in-out;
+}
+.offer {
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+.active {
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(193, 35, 35);
+}
+
+.tour_places {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+.place {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.location {
+  font-size: 1.2rem;
+}
+.icon {
+  padding-right: 0.4rem;
+}
+.location_name {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 100;
+}
+.package_title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 1rem 0;
+}
+.image_map {
+  display: flex;
+
+  gap: 0.5rem;
+}
+.image {
+  width: 65%;
+
+  border-radius: 5px;
+}
+.map {
+  width: 40%;
+}
+.group {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgb(197, 119, 119);
+  text-transform: capitalize;
+}
+.group_icon {
+  padding: 0 0.7rem;
+}
+.group_item {
+  padding: 0.5rem;
+}
+.price_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+}
+.price {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.availability_button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background-color: rgb(252, 228, 228);
+  color: rgb(241, 31, 31);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.availability_button:hover {
+  color: rgb(193, 35, 35);
+  background-color: rgb(251, 211, 211);
+}

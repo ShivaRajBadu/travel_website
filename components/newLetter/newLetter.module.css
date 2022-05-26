@@ -1,0 +1,64 @@
+.newletter {
+  background-image: linear-gradient(to top, #dfedf0, #eef2f3);
+  padding: 5rem 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  padding: 3rem 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.bg {
+  background-image: url("/title_bg.png");
+  background-position: bottom bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.subtitle {
+  text-align: center;
+  max-width: 600px;
+  opacity: 0.6;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.buttonIn {
+  width: 50%;
+  position: relative;
+  padding: 2rem;
+}
+
+.input {
+  width: 100%;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 1.6rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+}
+
+.button {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 38px;
+  border-radius: 15px;
+  right: 40px;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(14, 14, 60);
+}
+.button:hover {
+  background-color: rgb(6, 6, 44);
+  color: rgb(183, 219, 222);
+}

@@ -1,0 +1,72 @@
+.main {
+  background-image: linear-gradient(to right, #dfe7e8 0%, #a1c0c5 100%);
+  padding: 4.5rem 0;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  gap: 4.5rem;
+}
+.group_images {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-image: url("/bg.png");
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
+.group_title {
+  width: 40%;
+  padding: 0 2rem;
+}
+.first_image {
+  width: 50%;
+}
+.second_images {
+  width: 50%;
+}
+.image {
+  padding: 0.3rem 0;
+}
+.title {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding: 1rem 0;
+}
+.bg {
+  background-image: url("/title_bg.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.subtitle {
+  opacity: 0.7;
+  max-width: 30rem;
+  padding: 1rem 0;
+}
+.check_button {
+  padding: 1.2rem 2.4rem;
+  font-size: 1rem;
+  background-color: rgb(14, 14, 60);
+  color: #fff;
+  margin: 1rem 0;
+  margin-top: 2rem;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.check_button:hover {
+  background-color: rgb(6, 6, 44);
+  color: rgb(206, 138, 138);
+}

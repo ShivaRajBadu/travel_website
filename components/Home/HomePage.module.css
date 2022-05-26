@@ -1,0 +1,138 @@
+.home_page {
+  background-image: linear-gradient(to right, #dfe7e8 0%, #a1c0c5 100%);
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  padding: 4rem 0;
+}
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.home_body {
+  min-width: 60%;
+}
+.home_images {
+  display: flex;
+  align-items: center;
+  background-image: url("/bg.png");
+  background-position: left top;
+  background-size: cover;
+  max-width: 40%;
+  padding: 1rem;
+  padding-top: 2rem;
+  z-index: 1;
+}
+
+.images_two {
+  width: 70%;
+}
+.image_one {
+  width: 70%;
+}
+.image {
+  padding: 0.2rem;
+  width: 90%;
+}
+
+.home_title {
+  font-size: 7rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  line-height: 8.8rem;
+  text-transform: capitalize;
+  width: 80%;
+  background-image: url("/title_bg.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.home_subtitle {
+  width: 80%;
+  font-size: 1.6rem;
+  opacity: 0.6;
+  padding: 2rem 0;
+}
+.explore {
+  /* width: 90%; */
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.55rem 0.4rem;
+  padding-left: 2rem;
+  padding-right: 0.4rem;
+  margin: 2rem 0;
+  border-radius: 20px;
+}
+.group {
+  flex-shrink: 1;
+}
+.label {
+  display: block;
+  font-size: 1.3rem;
+}
+.icon {
+  color: rgb(222, 40, 40);
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+}
+.input {
+  font-size: 1rem;
+  outline: none;
+  padding: 0.5rem 0;
+
+  border: none;
+  background: transparent;
+  text-transform: capitalize;
+}
+#explore_submit {
+  padding: 1.3rem 2rem;
+  font-size: 1.3rem;
+  background-color: rgb(13, 13, 46);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+.popular {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.search_title {
+  color: rgb(13, 13, 46);
+  text-transform: capitalize;
+  margin-right: 1rem;
+}
+.popular_searches {
+  font-size: 1.05rem;
+}
+.different {
+  color: rgb(222, 40, 40);
+}
+.companys {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+}
+.company {
+  font-size: 3rem;
+  padding: 2rem 3rem;
+}
+.company_logo {
+  padding-right: 1.2rem;
+  color: rgb(13, 13, 46);
+}
+/* .company_name{
+
+} */
