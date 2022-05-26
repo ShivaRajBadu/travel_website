@@ -70,53 +70,6 @@ export default function Experiences() {
                   property={data.property}
                 />
               ))}
-              {/* 
-              <div className={styles.experience}>
-                <div className={styles.icon}>
-                  <i className="fa-solid fa-person-hiking"></i>
-                </div>
-                <div className={styles.experience_item}>
-                  <h4 className={styles.exp_title}>Hiking Trips</h4>
-                  <p className={styles.properties}>20 properties</p>
-                </div>
-              </div>
-
-              <div className={styles.experience}>
-                <div className={styles.icon}>
-                  <i className="fa-solid fa-city"></i>
-                </div>
-                <div className={styles.experience_item}>
-                  <h4 className={styles.exp_title}>city tour</h4>
-                  <p className={styles.properties}>100 properties</p>
-                </div>
-              </div>
-              <div className={styles.experience}>
-                <div className={styles.icon}>
-                  <i className="fa-solid fa-mountain-sun"></i>
-                </div>
-                <div className={styles.experience_item}>
-                  <h4 className={styles.exp_title}>mountain tour</h4>
-                  <p className={styles.properties}>20 properties</p>
-                </div>
-              </div>
-              <div className={styles.experience}>
-                <div className={styles.icon}>
-                  <i className="fa-solid fa-umbrella-beach"></i>
-                </div>
-                <div className={styles.experience_item}>
-                  <h4 className={styles.exp_title}>Beach activites</h4>
-                  <p className={styles.properties}>80 properties</p>
-                </div>
-              </div>
-              <div className={styles.experience}>
-                <div className={styles.icon}>
-                  <i class="fa-solid fa-fish-fins"></i>
-                </div>
-                <div className={styles.experience_item}>
-                  <h4 className={styles.exp_title}>Local food</h4>
-                  <p className={styles.properties}>150 properties</p>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

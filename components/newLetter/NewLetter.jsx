@@ -12,7 +12,7 @@ export default function NewLetter() {
           Don't want to miss something? Subscribe right now and get special
           promotion and monthly newsletter
         </p>
-        <div class={styles.buttonIn}>
+        <div className={styles.buttonIn}>
           <input
             type="text"
             className={styles.input}
