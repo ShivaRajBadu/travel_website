@@ -124,6 +124,7 @@
   display: flex;
   align-items: center;
   opacity: 0.7;
+  flex-wrap: wrap;
 }
 .company {
   font-size: 3rem;

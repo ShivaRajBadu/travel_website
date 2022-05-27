@@ -221,6 +221,7 @@ export default function TourPackages() {
           <div className={styles.package_body}>
             <ul className={styles.offers}>
               <li
+                id="special"
                 onClick={handleOffers}
                 className={activeSpecial ? styles.active : styles.offer}>
                 Special deals
