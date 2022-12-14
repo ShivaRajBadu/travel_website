@@ -21,7 +21,8 @@ const SingIn = () => {
         <form
           action=""
           className={styles.form}
-          onSubmit={handleSubmit(onSubmit)}>
+          onSubmit={handleSubmit(onSubmit)}
+        >
           <h1 className={styles.title}>Welcome to Neuron Travel</h1>
           <div>
             <div className={styles.form_input}>
@@ -63,13 +64,14 @@ const SingIn = () => {
           </div>
           <div className={styles.account}>
             <p className={styles.account_registe}>
-              Don't have account
+              Don&apos;t have account
               <Link href="/register">
                 <a
                   style={{
                     borderBottom: "1px solid #beceda6f",
                     padding: ".5rem .5rem .3rem .5rem",
-                  }}>
+                  }}
+                >
                   Register Now
                 </a>
               </Link>
