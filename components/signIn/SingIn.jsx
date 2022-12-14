@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import styles from "./signin.module.css";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const SingIn = () => {
   const route = useRouter();
@@ -59,6 +60,20 @@ const SingIn = () => {
               )}
             </div>
             <input className={styles.button} type="submit" value="Sign In" />
+          </div>
+          <div className={styles.account}>
+            <p className={styles.account_registe}>
+              Don't have account
+              <Link href="/register">
+                <a
+                  style={{
+                    borderBottom: "1px solid #beceda6f",
+                    padding: ".5rem .5rem .3rem .5rem",
+                  }}>
+                  Register Now
+                </a>
+              </Link>
+            </p>
           </div>
         </form>
       </div>

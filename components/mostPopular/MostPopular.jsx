@@ -42,9 +42,9 @@ export default function MostPopular() {
             visit most popular <span className={styles.bg}>destination</span>
           </h1>
           <p className={styles.subtitle}>
-            Doesn't have an ideas where to go? maybe you can check our popular
-            destination list you can visit you sure want to go then after you
-            check it up
+            Doesn &apos; t have an ideas where to go? maybe you can check our
+            popular destination list you can visit you sure want to go then
+            after you check it up
           </p>
           <button className={styles.check_button}>check listing</button>
         </div>

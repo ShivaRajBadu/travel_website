@@ -9,8 +9,8 @@ export default function NewLetter() {
           subscribe to get <span className={styles.bg}>special price</span>{" "}
         </h1>
         <p className={styles.subtitle}>
-          Don't want to miss something? Subscribe right now and get special
-          promotion and monthly newsletter
+          Don &apos;t want to miss something? Subscribe right now and get
+          special promotion and monthly newsletter
         </p>
         <div className={styles.buttonIn}>
           <input

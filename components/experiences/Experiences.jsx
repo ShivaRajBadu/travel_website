@@ -56,9 +56,9 @@ export default function Experiences() {
                 <span className={styles.bg}>experience</span>{" "}
               </h1>
               <p className={styles.subtitle}>
-                Feel the excited activites on the way you're going to trip, we
-                have a lot activites that you can explore with our professional
-                guide
+                Feel the excited activites on the way you &apos; re going to
+                trip, we have a lot activites that you can explore with our
+                professional guide
               </p>
             </div>
             <div className={styles.experience_items}>
